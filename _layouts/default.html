@@ -11,8 +11,10 @@
     
       <script>
           MathJax = {
-            tex: {
-              inlineMath: [['$', '$']]
+            loader: {load: ['[tex]/ams']},
+            tex: {packages: {'[+]': ['ams']},
+              inlineMath: [['$', '$']],
+              displayMath: [['$$', '$$']]
             }
           };
       </script>
