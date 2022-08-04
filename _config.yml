@@ -4,6 +4,7 @@ email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
   I hope this works......
 theme: minima
+markdown: kramdown
 
 # social links
 twitter_username: aryandugar2 # DO NOT include the @ character, or else the build will fail!
